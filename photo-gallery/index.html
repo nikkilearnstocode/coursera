@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="gallery.css">
+	<script src = "gallery.js"></script>
+</head>
+<body onload="addTabIndex()">
+	
+	<div id = "image">
+		<p>Hover over an image below.</p>
+	</div>
+	
+	<img class = "preview" alt = "Cathedral Rock in Sedona, Arizona" src = "images/cathedral.jpeg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" alt = "Three Falls Loop in Alpine, Utah" src = "images/three_falls.jpeg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" alt = "Promenade Loop in Scottsdale, Arizona" src = "images/promenade_loop.jpeg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class = "preview" alt = "Dreamy Draw in Phoenix, Arizona" src = "images/dreamy_draw.jpg" onmouseover = "upDate()" onmouseout = "unDo()" onfocus="upDate()" onblur="unDo()">
+
+	<img class = "preview" alt = "Elephant Mountain in Cave Creek, Arizona" src = "images/elephant_mountain.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class = "preview" alt = "Pyramid Wash in Phoenix, Arizona" src = "images/pyramid.jpeg"  onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+</body>
+</html>
